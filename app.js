@@ -1,9 +1,9 @@
 const contentful = require('contentful')
 
 const client = contentful.createClient({
-  space: 'spjrjxx49njq',
+  // space: 'spjrjxx49njq',
   environment: 'master', // defaults to 'master' if not set
-  accessToken: 'G9XuarOQI4ylWk6sQaaUFBmuHIFMfmplfg8bKd5fSvo'
+  // accessToken: 'G9XuarOQI4ylWk6sQaaUFBmuHIFMfmplfg8bKd5fSvo'
 });
 
 client.getEntry('5y7QJUvfBNNYBTEqDSjg6q')
